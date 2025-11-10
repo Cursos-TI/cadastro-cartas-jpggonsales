@@ -75,6 +75,7 @@ int main(){
     resultcapita = capita1 > capita2;
     resultpoder = superpoder1 > superpoder2;
 
+    
 
     //Informações carta 1
     printf("----CARTA 1----\n");
@@ -113,6 +114,19 @@ int main(){
     printf("Densidade populacional: %d\n", resultdensidade);
     printf("PIB per Capita: %d\n", resultcapita);
     printf("Super Poder: %d\n", resultpoder);
+    
+
+    //COMPARANDO PONTOS TURISTICOS COM IF E ELSE 
+    printf("Comparação das cartas (Atributo: Pontos turisticos):\n");
+    printf("Carta 1 - %s: %d\n ", cidade, pontos);
+    printf("Carta 2 - %s: %d\n ", cidade2, pontos2);
+    if (pontos >= pontos2){
+        printf("Carta 1 venceu!!\n");
+    } else{
+        printf("Carta 2 Venceu!");
+         
+    }
+
     
     
     
